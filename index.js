@@ -180,4 +180,4 @@ Client.on("messageCreate", message => {
     message.channel.send({ embeds: [embed]})
     }
 });
-Client.login("OTU5MTUzNjUyNDU3Njg5MTE5.YkXvcg.Z1SCoS6_ukOlq-ScDhxeqpfpMgk");
+Client.login(process.env.TOKEN);
