@@ -251,4 +251,4 @@ Client.on("messageCreate", message => {
     message.channel.send({ embeds: [embed]})
     }
 });
-Client.login("OTU5MTUzNjUyNDU3Njg5MTE5.YkXvcg.44RTnzcO_9IJ5kFqg4p8ymYa4hk");
+Client.login("process.env.TOKEN");
